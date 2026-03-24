@@ -33,7 +33,7 @@ I have a strong interest in working with data and deriving meaningful insights f
 - LinkedIn: https://linkedin.com/in/vishnumaya-pk-6175153b1  
 
 ## 🚀 Live Website
-[Click here to view my portfolio](https://your-username.github.io/portfolio-website/)
+[Click here to view my portfolio](index.html)
 
 ## 📌 Technologies Used
 - HTML  
