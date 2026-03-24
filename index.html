@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vishnumaya | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: #faf9ff;
+        color: #2b2b2b;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 60px 20px;
+        flex-wrap: wrap;
+        background: linear-gradient(to right, #f1efff, #faf9ff);
+    }
+
+    .hero img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #7c6acb;
+        transition: 0.3s;
+    }
+
+    .hero img:hover {
+        box-shadow: 0 8px 20px rgba(124,106,203,0.2);
+    }
+
+    .hero-text h1 {
+        margin: 0;
+        font-weight: 500;
+        color: #5a4fb3;
+    }
+
+    .hero-text p {
+        margin-top: 6px;
+        color: #7a75a6;
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 25px 20px;
+    }
+
+    .card {
+        position: relative;
+        padding: 20px;
+        margin-bottom: 18px;
+        border-radius: 10px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.04);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        box-shadow: 0 10px 25px rgba(124,106,203,0.12);
+    }
+
+    .card::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        width: 30px;
+        height: 2px;
+        background: #7c6acb;
+        opacity: 0.3;
+    }
+
+    .about { background: #ffffff; border-left: 3px solid #7c6acb; }
+    .education { background: #f5f3ff; border-left: 3px solid #7c6acb; }
+    .skills { background: #f8f6ff; border-left: 3px solid #7c6acb; }
+    .interests { background: #fcfaff; border-left: 3px solid #7c6acb; }
+    .achievements { background: #f3f0ff; border-left: 3px solid #7c6acb; }
+    .contact { background: #f1efff; border-left: 3px solid #7c6acb; }
+
+    h2 {
+        margin-bottom: 10px;
+        font-weight: 500;
+        color: #5a4fb3;
+        font-size: 16px;
+    }
+
+    p {
+        margin: 0;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+    ul {
+        padding-left: 18px;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    li {
+        margin-bottom: 6px;
+    }
+
+    a {
+        color: #5a4fb3;
+        text-decoration: none;
+        font-weight: 400;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 8px;
+        padding: 6px 14px;
+        background: #7c6acb;
+        color: white;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+
+    .btn:hover {
+        background: #5a4fb3;
+    }
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        color: #7a75a6;
+        font-size: 13px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <img src="C:\Desktop\PREDICTIVE ANALYTICS\LAB3\profile.jpeg" alt="Vishnumaya">
+    <div class="hero-text">
+        <h1>Vishnumaya PK</h1>
+        <p>Aspiring Data Analyst | MSc Computer Science (Data Analytics)</p>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="card about">
+        <h2>About Me</h2>
+        <p>
+            I am currently pursuing MSc in Computer Science with specialization in Data Analytics.
+            I have a strong interest in working with data and deriving meaningful insights.
+        </p>
+    </div>
+
+    <div class="card education">
+        <h2>Education</h2>
+        <ul>
+            <li><b>MSc Computer Science</b> – Data Analytics, Digital University Kerala</li>
+            <li><b>BSc Physics</b> – University of Calicut</li>
+        </ul>
+    </div>
+
+    <div class="card skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Data Analysis</li>
+            <li>SQL</li>
+            <li>Excel</li>
+            <li>Data Visualization</li>
+        </ul>
+    </div>
+
+    <div class="card interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Reading and continuous learning</li>
+            <li>Community volunteering</li>
+            <li>Creative expression</li>
+            <li>Data exploration</li>
+        </ul>
+    </div>
+
+    <div class="card achievements">
+        <h2>Achievements & Activities</h2>
+        <ul>
+            <li>Participated in Ideathon: Idea for Impact at Innovation Mela 2025</li>
+            <li>Attended IEEE session on Prompt Engineering ("Access to Prompt")</li>
+            <li>Served as volunteer at Tricult, organized by The Purple Club, Trivandrum</li>
+        </ul>
+    </div>
+
+    <div class="card contact">
+        <h2>Contact</h2>
+        <p>Email: vishnumaya880@gmail.com</p>
+        <a href="https://linkedin.com/in/vishnumaya-pk-6175153b1" target="_blank" class="btn">
+            LinkedIn Profile
+        </a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Vishnumaya PK</p>
+</footer>
+
+</body>
+</html>
